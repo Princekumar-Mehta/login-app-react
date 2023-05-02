@@ -1,0 +1,98 @@
+.primary-nav {
+  background-color: azure;
+  padding: 10px;
+}
+a,
+.navbar-button {
+  margin-right: 10px;
+  background-color: #72ab74;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.navbar-button {
+  float: right;
+}
+
+a:hover,
+.navbar-button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+label {
+  margin: 5px;
+}
+.container {
+  margin: auto;
+  width: 100%;
+  border: 3px solid green;
+  padding: 20px;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+span {
+  display: block;
+  margin: 10px;
+}
+.button {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #c7c19a;
+  width: 70px;
+  border: none;
+  border-radius: 5%;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.error {
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d63301;
+  background-color: #ffccba;
+  background-image: url("https://i.imgur.com/GnyDvKN.png");
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  display: flex;
+  width: 100%;
+  transition: 0.3s;
+  /* align-content: center; */
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
